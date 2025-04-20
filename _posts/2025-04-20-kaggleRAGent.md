@@ -127,7 +127,7 @@ User: Show me the latest research papers on "Diffusion Models in Computer Vision
 ```
 
 ## 📓 Explore the Full Kaggle Notebook
-👉 [Check out the complete implementation on Kaggle]([url](https://www.kaggle.com/code/srinivasravuri/kaggleragent))
+👉 [Check out the complete implementation on Kaggle](https://www.kaggle.com/code/srinivasravuri/kaggleragent)
 It includes the agent code, RAG flow, Gemini integration, and visual walkthrough — along with zero-shot and few-shot prompt examples tested for topics like Visual SLAM, Diffusion Models, and LLM-based competitions.
 
 ## 📘 Final Thoughts
