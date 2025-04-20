@@ -11,6 +11,8 @@ What if we could automatically bridge the gap between research and real-world ap
 
 Meet KaggleRAGent: an intelligent agent powered by Google Gemini, built to connect cutting-edge ArXiv research papers with ongoing Kaggle competitions using a Retrieval-Augmented Generation (RAG) approach.
 
+>🚀 Note: This project is developed as part of the Gen AI Intensive Course Capstone (2025 Q1), showcasing a practical application of Retrieval-Augmented Generation (RAG) using Google Gemini tools and the Kaggle CLI.
+
 ## 🎯 Goal of the Project
 This project aims to:
 
@@ -160,3 +162,4 @@ I would like to work further and wrap this agent inside a Gradio interface and h
   
 * [Gemini API – Google Generative AI](https://ai.google.dev/)
 
+>This project was built for the Gen AI Intensive Capstone (2025 Q1) to demonstrate practical usage of large language models and research toolchains.
