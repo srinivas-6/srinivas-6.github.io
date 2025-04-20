@@ -26,7 +26,7 @@ We use the Google Generative AI SDK to create a multitool Gemini-powered agent, 
 ![image](https://github.com/user-attachments/assets/871625f9-50ea-4a6a-baad-dce311a87954)
 
 ## 🔧 Tools Integrated
-This agent operates through a tightly coordinated sequence of four core functions, each responsible for a specific stage in the information retrieval and reasoning pipeline. These functions aren't just arbitrary tools — they form a logical chain that reflects how a human expert would search, filter, and synthesize information from multiple sources like ArXiv and Kaggle. To ensure the model follows this flow correctly, we use function_calling_config, which explicitly defines the order and availability of functions at each step. This configuration empowers the agent to think more systematically, invoking only the relevant tools based on the user query and maintaining a coherent, context-aware workflow. It transforms the agent from a reactive fetcher into an intelligent planner that retrieves, aligns, and reasons across different data sources to deliver actionable insights.
+This agent operates through a tightly coordinated sequence of four core functions, each responsible for a specific stage in the information retrieval and reasoning pipeline. These functions aren't just arbitrary tools — they form a logical chain that reflects how a human expert would search, filter, and synthesize information from multiple sources like ArXiv and Kaggle. To ensure the model follows this flow correctly, we use **function_calling_config**, which explicitly defines the order and availability of functions at each step. This configuration empowers the agent to think more systematically, invoking only the relevant tools based on the user query and maintaining a coherent, context-aware workflow. It transforms the agent from a reactive fetcher into an intelligent planner that retrieves, aligns, and reasons across different data sources to deliver actionable insights.
 
 * get_arxiv_papers(topic, count): Returns structured paper data from ArXiv (title, authors, summary, PDF URL, GitHub).
 
@@ -128,7 +128,7 @@ User: Show me the latest research papers on "Diffusion Models in Computer Vision
 
 ## 📓 Explore the Full Kaggle Notebook
 👉 [Check out the complete implementation on Kaggle]([url](https://www.kaggle.com/code/srinivasravuri/kaggleragent))
-It includes the agent code, RAG flow, Gemini integration, and visual walkthrough.
+It includes the agent code, RAG flow, Gemini integration, and visual walkthrough — along with zero-shot and few-shot prompt examples tested for topics like Visual SLAM, Diffusion Models, and LLM-based competitions.
 
 ## 📘 Final Thoughts
 This project demonstrates how LLMs + Tool Use + RAG can supercharge the workflow of machine learning practitioners. Instead of reading 20 papers or browsing 100 competitions, you get curated, connected insights — instantly.
