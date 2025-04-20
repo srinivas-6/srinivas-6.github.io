@@ -125,10 +125,15 @@ Assistant:
 User: Show me the latest research papers on "Diffusion Models in Computer Vision" and any related Kaggle competitions. How can I apply these ideas to gain an edge?
 
 ```
+
+## 📓 Explore the Full Kaggle Notebook
+👉 [Check out the complete implementation on Kaggle]([url](https://www.kaggle.com/code/srinivasravuri/kaggleragent))
+It includes the agent code, RAG flow, Gemini integration, and visual walkthrough.
+
 ## 📘 Final Thoughts
 This project demonstrates how LLMs + Tool Use + RAG can supercharge the workflow of machine learning practitioners. Instead of reading 20 papers or browsing 100 competitions, you get curated, connected insights — instantly.
 
-* We’re just scratching the surface. Future work includes:
+Future work includes:
 
 * Adding more sources (Google Scholar, PapersWithCode)
 
@@ -146,3 +151,12 @@ I would like to work further and wrap this agent inside a Gradio interface and h
 * Get an actionable summary on how to proceed.
   
 <span style="color:green">**Stay tuned for the release!**</span>
+
+## 📚 References
+
+* [ArXiv API Documentation](https://info.arxiv.org/help/api/index.html)
+
+* [Kaggle CLI Documentation](https://github.com/Kaggle/kaggle-api)
+  
+* [Gemini API – Google Generative AI](https://ai.google.dev/)
+
